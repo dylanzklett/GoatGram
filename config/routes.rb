@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get '/delete', to: 'posts#delete'
 
   resources :posts
+  resources :users
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
